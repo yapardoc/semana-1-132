@@ -1,0 +1,40 @@
+body{
+    /* tipo de letra */
+    font-family: sans-serif;
+    /* ancho del sitio web */
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.header{
+    background-color: #B4B1B3;
+    margin-bottom: 10px;
+}
+/* poner los elementos al lado del otro del titulo*/
+.barra-superior{
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    outline: 2px solid red;
+    outline-color: -20px;
+}
+.contenedor-menu, .titulo-principal{
+    width: 50%;  
+}
+/* poner elementos uno al lado del otro */
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.menu-principal__item >a{
+    text-decoration: none;
+}
+.menu-principal__item >a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
